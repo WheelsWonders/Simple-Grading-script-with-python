@@ -1,6 +1,5 @@
 def percent(x):
-    return x / 200 * 100  # function to get percentage
-
+    return x / 200 * 100  # function to get percentage. You can change the total marks from 200 to your preferred number.
 
 # Asking students to enter their obtained marks out of 200.
 x = int(input("\nPlease enter the obtain marks out of 200? "))
@@ -28,3 +27,4 @@ while True:
             print("\nCongratulations. You got F. Study more you retard. Your percentage is too funny",
                   round(percent(x)), "%") # This is intentional.
             break
+
